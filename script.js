@@ -6,7 +6,7 @@ document.getElementById('b1').addEventListener('click', click1)
 
 function click () {
   dof = document.getElementById('dayofweek').value
-  if ( dof === 'Monday' || dof === 'Tuesday' || dof === 'Wednesday' || dof === 'Thursday' || dof === 'Friday' ) {
+  if (dof === 'Monday' || dof === 'Tuesday' || dof === 'Wednesday' || dof === 'Thursday' || dof === 'Friday') {
     alert('Time for school!')
   } else if (dof === 'Saturday' || dof === 'Sunday') {
     alert('weekend')
